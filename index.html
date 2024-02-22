@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <form class="disabled" action="#">
+      <input type="text" id="nom" disabled placeholder="imya" />
+      <input type="password" id="kod" disabled placeholder="password" />
+      <input type="text" id="shahar" disabled placeholder="gorod" />
+      <input type="text" id="xat" disabled placeholder="pochta" />
+      <input type="text" id="bango" disabled placeholder="nomer tel" />
+    </form>
+    <form action="#">
+      <input type="text" name="text" id="name" placeholder="Vevdite imya" />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Vvedite parol"
+      />
+      <input type="text" name="text" id="gorod" placeholder="Vvedite gorod" />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Vvedite pochtu"
+      />
+      <input
+        type="tel"
+        name="tel"
+        id="tel"
+        placeholder="Vvedite nomer telefona"
+      />
+
+      <input type="button" value="send" onclick="checkData()" />
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
