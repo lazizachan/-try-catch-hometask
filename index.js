@@ -29,4 +29,13 @@ function checkData() {
   shahar.value = gorod;
   xat.value = pochta;
   bango.value = numTel;
+
+  let userData = {
+    imya: imya,
+    parol: parol,
+    gorod: gorod,
+    pochta: pochta,
+    numTel: numTel,
+  };
+  console.log(userData);
 }
